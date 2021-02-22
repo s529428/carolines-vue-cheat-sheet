@@ -2,6 +2,7 @@
 
 ## Get started
 
+**ONLY RUN VUE CREATE IF STARTING NEW PROJECT**
 To start a new view project run the following command:
 
 ```Bash
@@ -41,6 +42,7 @@ Here is how to import a component into a vue:
 ```vue
 <template>
     <div class="home">
+        <!-- The following element is how we display a component-->
         <HelloWord msg="Hello and welcome"/>
     </div>
 </template>
@@ -57,3 +59,5 @@ export default {
 }
 </script>
 ```
+
+### Adding pages
